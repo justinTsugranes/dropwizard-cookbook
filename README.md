@@ -3,6 +3,7 @@
 Custom resource for managing [dropwizard](http://www.dropwizard.io/) applications.
 
 [![Build Status](https://travis-ci.org/greglu/dropwizard-cookbook.png?branch=master)](https://travis-ci.org/greglu/dropwizard-cookbook)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FjustinTsugranes%2Fdropwizard-cookbook.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FjustinTsugranes%2Fdropwizard-cookbook?ref=badge_shield)
 
 ## Supported Platforms
 
@@ -94,3 +95,7 @@ Check out this project's `test/cookbooks/dw_test` directory for an example recip
 Dropwizard has a built-in [check command](https://github.com/dropwizard/dropwizard/blob/master/dropwizard-core/src/main/java/io/dropwizard/cli/CheckCommand.java) for verifying compatibility between a JAR and configuration file. Setting `safe_restart` to true will have the `dropwizard` resource check for compatibility before restarting the service. This prevent restarts from occurring that would cause the service to not come back up.
 
 The safe restart feature will also retry restarts on subsequent chef runs, by checking for the existence of a restart flag (which will get deleted when a restart is successful).
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FjustinTsugranes%2Fdropwizard-cookbook.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FjustinTsugranes%2Fdropwizard-cookbook?ref=badge_large)
