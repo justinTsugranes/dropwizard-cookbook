@@ -1,0 +1,113 @@
+{
+  "cliCIEnvironment": null,
+  "cliCommandArgs": [
+    "fossa",
+    "analyze",
+    "--debug"
+  ],
+  "cliEnvironment": "prod",
+  "cliExitedFatally": false,
+  "cliResolvedConfig": {
+    "cmdConfig": {
+      "contents": {
+        "baseDir": {
+          "unBaseDir": "/Users/justintsugranes/Desktop/FOSSA/Code/dropwizard-release-group/dropwizard-cookbook/"
+        },
+        "experimental": {
+          "allowedGradleConfigs": null
+        },
+        "filterSet": {
+          "excludeFilters": {
+            "_combinedPaths": [],
+            "_combinedTargets": []
+          },
+          "includeFilters": {
+            "_combinedPaths": [],
+            "_combinedTargets": []
+          }
+        },
+        "includeAllDeps": {
+          "getFlag": false
+        },
+        "jsonOutput": {
+          "getFlag": false
+        },
+        "noDiscoveryExclusion": {
+          "getFlag": false
+        },
+        "projectRevision": {
+          "projectBranch": null,
+          "projectName": "https://github.com/justinTsugranes/dropwizard-cookbook",
+          "projectRevision": "1833a2576145157535220cd9e8a36192662c49c2"
+        },
+        "scanDestination": {
+          "contents": [
+            {
+              "apiKey": "<REDACTED>",
+              "uri": "Nothing"
+            },
+            {
+              "projectJiraKey": null,
+              "projectLink": null,
+              "projectPolicy": null,
+              "projectReleaseGroup": null,
+              "projectTeam": null,
+              "projectTitle": null,
+              "projectUrl": null
+            }
+          ],
+          "tag": "UploadScan"
+        },
+        "severity": "debug",
+        "unpackArchives": {
+          "getFlag": false
+        },
+        "vendoredDeps": {
+          "forceRescans": false,
+          "licenseScanMethod": null
+        },
+        "vsiOptions": {
+          "binaryDiscoveryEnabled": {
+            "getFlag": false
+          },
+          "dynamicLinkingTarget": {
+            "unDynamicLinkInspect": null
+          },
+          "iatAssertion": {
+            "unIATAssertion": null
+          },
+          "vsiAnalysisEnabled": {
+            "getFlag": false
+          },
+          "vsiSkipSet": {
+            "unVSISkipResolution": []
+          }
+        }
+      },
+      "tag": "Standard"
+    },
+    "cmdName": "analyze"
+  },
+  "cliStartedAt": "2022-12-07T19:03:57.997401Z",
+  "cliSystemInfo": {
+    "systemCapabilities": 16,
+    "systemInfoArch": "x86_64",
+    "systemInfoOs": "darwin",
+    "systemProcessors": 16
+  },
+  "cliTelLogs": [],
+  "cliTelemetryId": "e48b1fb9-e857-466e-a1ef-cd2b68c3c0fa",
+  "cliTimedDurations": [
+    {
+      "computationName": "BundlerProjectType",
+      "durationInSeconds": 3.3073e-2
+    },
+    {
+      "computationName": "MavenProjectType",
+      "durationInSeconds": 15.015131
+    }
+  ],
+  "cliTotalDurationInSec": 16.791209,
+  "cliUsageCounter": {},
+  "cliVersion": "v3.6.7"
+}

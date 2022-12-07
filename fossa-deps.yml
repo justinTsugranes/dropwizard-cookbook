@@ -1,0 +1,4 @@
+vendored-dependencies:
+  - name: rack
+    path: vendor/rack-2.1.4.gem
+    version: '2.1.4'
