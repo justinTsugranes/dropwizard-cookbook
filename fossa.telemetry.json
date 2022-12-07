@@ -11,7 +11,7 @@
     "cmdConfig": {
       "contents": {
         "baseDir": {
-          "unBaseDir": "/Users/justintsugranes/Desktop/FOSSA/Code/dropwizard-release-group/dropwizard-cookbook/"
+          "unBaseDir": "/Users/justintsugranes/Desktop/FOSSA/Code/dropwizard-cookbook/"
         },
         "experimental": {
           "allowedGradleConfigs": null
@@ -36,9 +36,9 @@
           "getFlag": false
         },
         "projectRevision": {
-          "projectBranch": null,
-          "projectName": "https://github.com/justinTsugranes/dropwizard-cookbook",
-          "projectRevision": "1833a2576145157535220cd9e8a36192662c49c2"
+          "projectBranch": "master",
+          "projectName": "https://github.com/justinTsugranes/dropwizard-cookbook.git",
+          "projectRevision": "b8dcb4dc8cd25fed965d7eacae54b970df74e5b7"
         },
         "scanDestination": {
           "contents": [
@@ -88,7 +88,7 @@
     },
     "cmdName": "analyze"
   },
-  "cliStartedAt": "2022-12-07T19:03:57.997401Z",
+  "cliStartedAt": "2022-12-07T21:03:14.590053Z",
   "cliSystemInfo": {
     "systemCapabilities": 16,
     "systemInfoArch": "x86_64",
@@ -96,18 +96,18 @@
     "systemProcessors": 16
   },
   "cliTelLogs": [],
-  "cliTelemetryId": "e48b1fb9-e857-466e-a1ef-cd2b68c3c0fa",
+  "cliTelemetryId": "d7c71c9d-ee7b-4d52-84c9-74f9280da598",
   "cliTimedDurations": [
     {
       "computationName": "BundlerProjectType",
-      "durationInSeconds": 3.3073e-2
+      "durationInSeconds": 8.552e-3
     },
     {
       "computationName": "MavenProjectType",
-      "durationInSeconds": 15.015131
+      "durationInSeconds": 4.255157
     }
   ],
-  "cliTotalDurationInSec": 16.791209,
+  "cliTotalDurationInSec": 6.714547,
   "cliUsageCounter": {},
   "cliVersion": "v3.6.7"
 }
